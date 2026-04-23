@@ -1,0 +1,41 @@
+{
+    "headerSearchPaths": [
+        "mlx",
+        "mlx-c",
+        "json/single_include/nlohmann",
+        "fmt/include"
+    ],
+    "exclude": [
+        "framework",
+        "include-framework",
+        "metal-cpp",
+        "mlx/mlx/backend/metal/kernels",
+        "mlx/mlx/backend/metal/jit",
+        "mlx/mlx/backend/no_cpu",
+        "mlx-conditional",
+        "mlx/mlx/backend/cuda/quantized/qmm/qmm_impl_sm90_m128_n16_m1.cu",
+        "mlx/mlx/backend/cuda/quantized/qmm/qmv.cu",
+        "mlx/mlx/backend/cuda/quantized/qmm/qmm_impl_sm90_m128_n32_m1.cu",
+        "mlx/mlx/backend/cuda/quantized/qmm/qmm_impl_sm90.cuh",
+        "mlx/mlx/backend/cuda/quantized/qmm/qmm_impl_sm90_m128_n64_m2.cu",
+        "mlx/mlx/backend/cuda/quantized/qmm/qmm.h",
+        "mlx/mlx/backend/cuda/quantized/qmm/qmm_impl_sm90_m128_n256_m2.cu",
+        "mlx/mlx/backend/cuda/quantized/qmm/qmm.cu",
+        "mlx/mlx/backend/cuda/quantized/qmm/qmm_impl_sm90_m128_n128_m2.cu",
+        "mlx/mlx/backend/cuda/quantized/qmm/fp_qmv.cu",
+        "mlx-c/examples",
+        "json",
+        "fmt/test",
+        "fmt/doc",
+        "fmt/support",
+        "mlx/benchmarks",
+        "mlx/cmake",
+        "mlx/docs",
+        "mlx/examples",
+        "mlx/python",
+        "mlx/tests",
+        "mlx/mlx/backend/metal/kernels"
+    ],
+    "cppLanguageStandard": "c++20",
+    "verbose": false
+}
