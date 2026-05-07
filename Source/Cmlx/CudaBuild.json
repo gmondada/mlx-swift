@@ -27,5 +27,31 @@
         "mlx/mlx/backend/metal/kernels"
     ],
     "cppLanguageStandard": "c++20",
-    "verbose": false
+    "verbose": false,
+    "codeGeneration": [
+        {
+            "tool": "codegen-jit",
+            "inputs": [
+                "mlx/mlx/backend/cuda/device/atomic_ops.cuh",
+                "mlx/mlx/backend/cuda/device/binary_ops.cuh",
+                "mlx/mlx/backend/cuda/device/cast_op.cuh",
+                "mlx/mlx/backend/cuda/device/complex.cuh",
+                "mlx/mlx/backend/cuda/device/config.h",
+                "mlx/mlx/backend/cuda/device/fp16_math.cuh",
+                "mlx/mlx/backend/cuda/device/gather.cuh",
+                "mlx/mlx/backend/cuda/device/gather_axis.cuh",
+                "mlx/mlx/backend/cuda/device/hadamard.cuh",
+                "mlx/mlx/backend/cuda/device/indexing.cuh",
+                "mlx/mlx/backend/cuda/device/scatter.cuh",
+                "mlx/mlx/backend/cuda/device/scatter_axis.cuh",
+                "mlx/mlx/backend/cuda/device/scatter_ops.cuh",
+                "mlx/mlx/backend/cuda/device/ternary_ops.cuh",
+                "mlx/mlx/backend/cuda/device/unary_ops.cuh",
+                "mlx/mlx/backend/cuda/device/utils.cuh"
+            ],
+            "outputs": [
+                "cuda_jit_sources.cpp"
+            ]
+        }
+    ]
 }

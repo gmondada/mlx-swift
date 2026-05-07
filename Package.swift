@@ -416,11 +416,18 @@ let package = Package(
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
             ],
         ),
+        .executableTarget(
+            name: "codegen-jit",
+            dependencies: [
+                .product(name: "ArgumentParser", package: "swift-argument-parser"),
+            ],
+        ),
         .plugin(
             name: "CudaBuild",
             capability: .buildTool(),
             dependencies: [
                 .target(name: "encuda"),
+                .target(name: "codegen-jit"),
             ],
         ),
     ],
