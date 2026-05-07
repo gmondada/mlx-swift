@@ -15,6 +15,7 @@ extern constinit const char *jit_source_indexing;
 extern constinit const char *jit_source_scatter;
 extern constinit const char *jit_source_scatter_axis;
 extern constinit const char *jit_source_scatter_ops;
+extern constinit const char *jit_source_slice_update;
 extern constinit const char *jit_source_ternary_ops;
 extern constinit const char *jit_source_unary_ops;
 extern constinit const char *jit_source_utils;

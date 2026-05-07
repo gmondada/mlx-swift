@@ -45,6 +45,7 @@
                 "mlx/mlx/backend/cuda/device/scatter.cuh",
                 "mlx/mlx/backend/cuda/device/scatter_axis.cuh",
                 "mlx/mlx/backend/cuda/device/scatter_ops.cuh",
+                "mlx/mlx/backend/cuda/device/slice_update.cuh",
                 "mlx/mlx/backend/cuda/device/ternary_ops.cuh",
                 "mlx/mlx/backend/cuda/device/unary_ops.cuh",
                 "mlx/mlx/backend/cuda/device/utils.cuh"
